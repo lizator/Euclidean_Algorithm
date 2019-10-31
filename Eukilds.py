@@ -1,4 +1,5 @@
 import math
+import tabula
 
 # Python solution to Eukilds algorithm for Diskrete Mathematics with automated LaTeX code output
 
@@ -19,7 +20,7 @@ class Eukild:
 
 
     def gcd(self, a, b, addLatex):
-        myTable = TableSetUp()
+        myTable = tabula.TableSetUp()
 
         if a < b:
             self.update(0, 1, 1, 0, b, a)
@@ -32,8 +33,10 @@ class Eukild:
             myTable.addLine(0, self.s1, self.t1, " ", self.r1)
 
         if addLatex:
-            self.tex = Latex()
+            self.tex = tabula.Latex()
             self.tex.beginTabluar(self.r0, self.r1)
+            self.tex.addLineAsCode(-1, self.s0, self.t0, " ", self.r0)
+            self.tex.addLineAsCode(0, self.s1, self.t1, " ", self.r1)
 
         i = 1
         while (self.r1 != 0):
@@ -56,52 +59,7 @@ class Eukild:
         print(myTable.table)
 
 
-
-# give table and returns latex code
-class Latex:
-    def __init__(self):
-        pass
-
-    def beginTabluar(self, a, b):
-        name = "LaTeX/Tabular gcd(" + str(a) + ", " + str(b) + ")"
-        self.f = open(name, "w")
-        startTxt = "gcd(" + str(a) + ", " + str(b) + ")" + """
-\\begin{tabular}{c|c c c c} 
-    i & $s_i$ & $t_i$ & $q_i$ & $r_i$ \\\\ \\hline \n"""
-
-        self.f.write(startTxt)
-
-
-    def addLineAsCode(self, i, s, t, q, r):
-        line = "    " + str(i) + " & " + str(s) + " & " + str(t) + " & " + str(q) + " & " + str(r) + "\\\\ \n"
-        self.f.write(line)
-
-    def endTabular(self):
-        self.f.write("\\end{tabular}")
-        self.f.close()
-
-
-# turns values to a tableLine
-class Txt:
-    def __init__(self):
-        pass
-
-    def tableLine(self, i, s, t, q, r):
-        line = str(i) + " | " + str(s) + "   " + str(t) + "   " + str(q) + "   "  + str(r)
-        return line
-
-
-# generates table
-class TableSetUp:
-    def __init__(self):
-        self.myTxt = Txt()
-        self.table = """i | s   t   q   t
-------------------"""
-
-    def addLine(self, i, s, t, q, r):
-        line = self.myTxt.tableLine(i, s, t, q, r)
-        self.table += "\n" + line
-
+# testing
 eu = Eukild()
 
 
