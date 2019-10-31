@@ -4,7 +4,7 @@ class Latex:
         pass
 
     def beginTabluar(self, a, b):
-        name = "LaTeX/Tabular gcd(" + str(a) + ", " + str(b) + ")"
+        name = "LaTeX/Tabular gcd(" + str(a) + ", " + str(b) + ").txt"
         self.f = open(name, "w")
         startTxt = "% gcd(" + str(a) + ", " + str(b) + ")" + """
 \\begin{tabular}{c|c c c c} 
