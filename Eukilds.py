@@ -56,18 +56,17 @@ class Eukild:
         if addLatex:
             self.tex.endTabular()
 
-        print(myTable.table)
+        return myTable.table
 
 
 # testing
-eu = Eukild()
+#eu = Eukild()
 
+#eu.gcd(4, 3, False)
 
-eu.gcd(4, 3, False)
+#print (" ")
 
-print (" ")
-
-eu.gcd(341, 217, True)
+#eu.gcd(341, 217, True)
 
 
 
