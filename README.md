@@ -3,6 +3,8 @@ Python solution to Eukilds algorithm for Diskrete Mathematics with automated LaT
 
 LaTeX code will be output in an external txt file in a LaTeX folder generated from the files directory.
 
-if you do not trust the .exe file, you may build it your self using pyinstaller in you cmd with this command:
+You only need to download the "Eukilds Algorithm.exe" file for it to work
+
+If you do not trust the .exe file, you may build it your self using pyinstaller in you cmd with this command:
 
 pyinstaller --onefile -w Main.py
