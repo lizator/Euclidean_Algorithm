@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f65b74-197c-4b60-b197-ec34993035ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74f65b74-197c-4b60-b197-ec34993035ec" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LaTeX/placeholder.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -43,6 +49,7 @@
         <option value="$PROJECT_DIR$/LaTeX/Tabular gcp(341, 217)" />
         <option value="$PROJECT_DIR$/Eukilds.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/LaTeX/placeholder.txt" />
       </list>
     </option>
   </component>
@@ -65,6 +72,11 @@
             <path>
               <item name="Eukilds algoritme" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eukilds algoritme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eukilds algoritme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eukilds algoritme" type="462c0819:PsiDirectoryNode" />
+              <item name="LaTeX" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +146,7 @@
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -145,7 +157,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -155,6 +167,9 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LaTeX/Tabular gcp(341, 217)">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Eukilds.py">
@@ -167,8 +182,12 @@
     <entry file="file://$PROJECT_DIR$/LaTeX/Tabular gcd(341, 217)">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/LaTeX/placeholder.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
