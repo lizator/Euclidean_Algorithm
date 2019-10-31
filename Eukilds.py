@@ -1,6 +1,6 @@
 import math
 
-#does the computing for Eukilds algorithm
+# does the computing for Eukilds algorithm
 class Eukild:
 
     def __init__(self):
@@ -43,16 +43,19 @@ class Eukild:
 
 
 
-#give table and returns latex code
+# give table and returns latex code
 class Latex:
     def __init__(self):
         pass
 
-    def toCode():
+    def beginTabluar(self):
+
+
+    def toCode(self):
         return
 
 
-#turns values to a tableLine
+# turns values to a tableLine
 class txt:
     def __init__(self):
         pass
@@ -62,7 +65,7 @@ class txt:
         return line
 
 
-#generates table
+# generates table
 class tableSetUp:
     def __init__(self):
         self.myTxt = txt()
@@ -73,13 +76,14 @@ class tableSetUp:
         line = self.myTxt.tableLine(i, s, t, q, r)
         self.table += "\n" + line
 
-Eu = Eukild()
+eu = Eukild()
 
-Eu.gcp(4,3)
+
+eu.gcp(4,3)
 
 print (" ")
 
-Eu.gcp(341,217)
+eu.gcp(341,217)
 
 
 
