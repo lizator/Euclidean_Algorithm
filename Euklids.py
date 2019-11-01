@@ -4,7 +4,7 @@ import tabula
 # Python solution to Eukilds algorithm for Diskrete Mathematics with automated LaTeX code output
 
 # does the computing for Eukilds algorithm
-class Eukild:
+class Euklid:
 
     def __init__(self):
         self.s0 = 0; self.s1 = 0

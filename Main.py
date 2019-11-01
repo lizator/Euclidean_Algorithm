@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 import os
-import Eukilds
+import Euklids
 
 # Source of RepresentsInt:
 # https://stackoverflow.com/questions/1265665/how-can-i-check-if-a-string-represents-an-int-without-using-try-except
@@ -27,7 +27,7 @@ layout = [
     [sg.Button("GCD!")]
 ]
 
-eu = Eukilds.Eukild()
+eu = Euklids.Euklid()
 
 window = sg.Window("GCD()").Layout(layout)
 
