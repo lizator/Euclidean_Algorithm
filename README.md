@@ -7,4 +7,4 @@ You only need to download the "Eukilds Algorithm.exe" file for it to work
 
 If you do not trust the .exe file, you may build it your self using pyinstaller in you cmd with this command:
 
-pyinstaller --onefile -w Main.py
+pyinstaller --onefile -w --icon=icon.ico -n "Euclidean Algorithm" Main.py
