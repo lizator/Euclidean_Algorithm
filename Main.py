@@ -38,6 +38,6 @@ while True:
         if values[2]:
             latexDir()
         tablePreview = eu.gcd(int(values[0]), int(values[1]), values[2])
-        sg.Popup(tablePreview)
+        sg.Popup(tablePreview, title="GCD(" + str(values[0]) + ", " + str(values[1]) + ") - Preview")
     else:
         sg.Popup("Make sure all values are integers!")

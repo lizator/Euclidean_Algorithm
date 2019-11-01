@@ -8,13 +8,13 @@ class Latex:
         self.f = open(name, "w")
         startTxt = "% gcd(" + str(a) + ", " + str(b) + ")" + """
 \\begin{tabular}{c|c c c c} 
-    $i$ & $s_i$ & $t_i$ & $q_i$ & $r_i$ \\\\ \\hline \n"""
+\t$i$\t& $s_i$\t& $t_i$\t& $q_i$\t& $r_i$\t\\\\ \\hline \n"""
 
         self.f.write(startTxt)
 
 
     def addLineAsCode(self, i, s, t, q, r):
-        line = "    " + str(i) + " & " + str(s) + " & " + str(t) + " & " + str(q) + " & " + str(r) + " \\\\ \n"
+        line = "\t" + str(i) + "\t& " + str(s) + "\t& " + str(t) + "\t& " + str(q) + "\t& " + str(r) + "\t\\\\ \n"
         self.f.write(line)
 
     def endTabular(self):
@@ -28,7 +28,7 @@ class Txt:
         pass
 
     def tableLine(self, i, s, t, q, r):
-        line = str(i) + " | " + str(s) + "   " + str(t) + "   " + str(q) + "   "  + str(r)
+        line = str(i) + "\t| " + str(s) + "\t" + str(t) + "\t" + str(q) + "\t" + str(r)
         return line
 
 
@@ -36,8 +36,8 @@ class Txt:
 class TableSetUp:
     def __init__(self):
         self.myTxt = Txt()
-        self.table = """i | s   t   q   t
-------------------"""
+        self.table = """i\t| s\tt\tq\tt
+--------------------------------------------------------------------"""
 
     def addLine(self, i, s, t, q, r):
         line = self.myTxt.tableLine(i, s, t, q, r)
