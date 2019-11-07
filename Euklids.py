@@ -1,9 +1,9 @@
 import math
 import tabula
 
-# Python solution to Eukilds algorithm for Diskrete Mathematics with automated LaTeX code output
+# Python solution to Euklids algorithm for Discrete Mathematics with automated LaTeX code output
 
-# does the computing for Eukilds algorithm
+# does the computing for Euklids algorithm
 class Euklid:
 
     def __init__(self):
@@ -22,7 +22,7 @@ class Euklid:
     def gcd(self, a, b, addLatex):
         myTable = tabula.TableSetUp()
 
-        if a < b:
+        if abs(a) < abs(b):
             self.update(0, 1, 1, 0, b, a)
             myTable.addLine(-1, self.s0, self.s1, " ", self.r0)
             myTable.addLine( 0, self.t0, self.t1, " ", self.r1)
