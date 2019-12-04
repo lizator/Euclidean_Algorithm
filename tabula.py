@@ -36,7 +36,7 @@ class Txt:
 class TableSetUp:
     def __init__(self):
         self.myTxt = Txt()
-        self.table = """i\t| s\tt\tq\tt
+        self.table = """i\t| s\tt\tq\tr
 --------------------------------------------------------------------"""
 
     def addLine(self, i, s, t, q, r):
